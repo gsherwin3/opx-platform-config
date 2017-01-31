@@ -1,2 +1,2 @@
-LD_LIBRARY_PATH=/usr/lib/opx:/usr/lib/x86_64-linux-gnu:/usr/lib:/lib
-PYTHONPATH=/usr/lib/opx:/usr/lib/x86_64-linux-gnu/opx
+LD_LIBRARY_PATH=$OPX_INSTALL_PATH/usr/lib/opx:$OPX_INSTALL_PATH/usr/lib/x86_64-linux-gnu:$OPX_INSTALL_PATH/usr/lib:$OPX_INSTALL_PATH/lib
+PYTHONPATH=$OPX_INSTALL_PATH/usr/lib/opx:$OPX_INSTALL_PATH/usr/lib/x86_64-linux-gnu/opx:$OPX_INSTALL_PATH/lib/python2.7/site-packages
