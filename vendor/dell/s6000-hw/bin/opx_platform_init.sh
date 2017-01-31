@@ -15,7 +15,7 @@
 # permissions and limitations under the License.
 #
 
-. /etc/opx/opx-environment.sh
+. $OPX_INSTALL_PATH/etc/opx/opx-environment.sh
 
 /usr/bin/pcisysfs.py --set --val 0x00000005 --offset 0x300 --res "/sys/devices/pci0000:00/0000:00:13.1/resource0"
 #SM Bus HCLK divider register set 0x59 to tune 90khz frequency
